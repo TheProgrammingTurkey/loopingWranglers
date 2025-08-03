@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Rye&family=Smokum&display=swap');
+
+body{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+*{
+    text-align: center;
+    font-family: "Smokum";
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #C19A6B;
+}
+
+h1{
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-family: "Rye";
+}
+
+button {
+    font-size: 30px;
+    border-radius: 6px;
+    border: solid black 3px;
+    cursor: pointer;
+    padding-inline: 40px;
+}
+
