@@ -259,7 +259,7 @@ function generatePoint(){
 //Finds spawn points for cattle
 function generatePredatorPoint(){
     let tries = 0;
-    let dist = 500;
+    let dist = 250;
     while(true){
         const x = Math.random() * (canvas.width-cattleRadius*5);
         const y = Math.random() * (canvas.height-cattleRadius*5);
@@ -280,7 +280,7 @@ function generatePredatorPoint(){
         }
         tries++;
         if(tries > 100){
-            dist -= 50;
+            dist -= 25;
             tries = 0;
         }
     }
